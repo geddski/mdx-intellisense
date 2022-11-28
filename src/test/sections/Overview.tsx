@@ -3,8 +3,10 @@
 //   languages: string[];
 // }
 
+import { AvatarProps } from "../components/Avatar.js";
+
 export interface OverviewProps {
-  children: [string, string];
+  children: [string, AvatarProps];
 }
 
 export function Overview({ children }: OverviewProps) {
