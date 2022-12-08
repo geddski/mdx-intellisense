@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "check-markdown": "remark src/tutorial2.md",
-    "format": "remark . --output"
+    "check-markdown": "remark src/tutorial1.mdx",
+    "format-markdown": "remark src/tutorial1.mdx --output"
   },
   "dependencies": {
     "eslint": "^8.0.1",
