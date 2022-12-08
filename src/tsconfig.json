@@ -3,7 +3,7 @@
     "checkJs": true,
     "jsx": "react-jsx",
     "lib": ["es2020"],
-    "module": "node16",
+    "module": "ES2020",
     "strict": true
   }
 }

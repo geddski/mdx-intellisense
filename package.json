@@ -6,9 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check-markdown": "remark src/tutorial2.md",
+    "format": "remark . --output"
   },
   "dependencies": {
+    "eslint": "^8.0.1",
+    "eslint-mdx": "^2.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -16,8 +20,18 @@
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@vitejs/plugin-react": "^2.2.0",
-    "typescript": "^4.6.4",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-mdx": "^2.0.5",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.11",
+    "remark-cli": "^11.0.0",
+    "remark-preset-lint-consistent": "^5.1.1",
+    "remark-preset-lint-recommended": "^6.1.2",
+    "typescript": "*",
     "vite": "^3.2.3"
   }
 }
