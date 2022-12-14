@@ -3,14 +3,14 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  settings: {
-    "mdx/code-blocks": true,
-    ignoreRemarkConfig: false,
-  },
   overrides: [
     {
-      files: ["*.mdx", "*.md"],
+      files: ["*.mdx"],
       extends: "plugin:mdx/recommended",
+      settings: {
+        // "mdx/code-blocks": true,
+        ignoreRemarkConfig: false,
+      },
       rules: {
         "no-unused-expressions": "off",
       },
