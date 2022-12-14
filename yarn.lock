@@ -2994,6 +2994,18 @@ remark-lint-emphasis-marker@^3.0.0:
     unist-util-position "^4.0.0"
     unist-util-visit "^4.0.0"
 
+remark-lint-fenced-code-flag@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/remark-lint-fenced-code-flag/-/remark-lint-fenced-code-flag-3.1.1.tgz#b1fccd801a79c302543302dd3041fa325d1bd727"
+  integrity sha512-FFVZmYsBccKIIEgOtgdZEpQdARtAat1LTLBydnIpyNIvcntzWwtrtlj9mtjL8ZoSRre8HtwmEnBFyOfmM/NWaA==
+  dependencies:
+    "@types/mdast" "^3.0.0"
+    unified "^10.0.0"
+    unified-lint-rule "^2.0.0"
+    unist-util-generated "^2.0.0"
+    unist-util-position "^4.0.0"
+    unist-util-visit "^4.0.0"
+
 remark-lint-fenced-code-marker@^3.0.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/remark-lint-fenced-code-marker/-/remark-lint-fenced-code-marker-3.1.1.tgz#ee977552bd130f1f1305301f97160d31ff6b7461"
@@ -3253,7 +3265,7 @@ remark-lint@^9.0.0:
     remark-message-control "^7.0.0"
     unified "^10.1.0"
 
-remark-mdx@^2.1.3:
+remark-mdx@^2.1.3, remark-mdx@^2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-2.1.5.tgz#69b19ec42d30a289e0663c3fc7656ebdca0a8d8e"
   integrity sha512-A8vw5s+BgOa968Irt8BO7DfWJTE0Fe7Ge3hX8zzDB1DnwMZTNdK6qF2IcFao+/7nzk1vSysKcFp+3ku4vhMpaQ==
@@ -3324,6 +3336,11 @@ remark-preset-lint-recommended@^6.1.2:
     remark-lint-no-unused-definitions "^3.0.0"
     remark-lint-ordered-list-marker-style "^3.0.0"
     unified "^10.0.0"
+
+remark-preset-prettier@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/remark-preset-prettier/-/remark-preset-prettier-2.0.1.tgz#1b4469fd45b22c7d49e1b2d2594a8e7bba3cdac9"
+  integrity sha512-1+cZaM080zTlhQIvZDOj7SFWvW9zevfxsLjTZspLEsBYivMDwCyTodvNvaZLc9p5dUSMik/BjMFKicfhZXh7qg==
 
 remark-stringify@^10.0.0, remark-stringify@^10.0.2:
   version "10.0.2"

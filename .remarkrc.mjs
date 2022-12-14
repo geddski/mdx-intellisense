@@ -1,5 +1,7 @@
 import remarkPresetLintConsistent from "remark-preset-lint-consistent";
 import remarkPresetLintRecommended from "remark-preset-lint-recommended";
+import remarkLintFencedCodeFlag from "remark-lint-fenced-code-flag";
+import presetPrettier from "remark-preset-prettier";
 // import remarkToc from "remark-toc";
 
 const remarkConfig = {
@@ -12,6 +14,9 @@ const remarkConfig = {
     remarkPresetLintRecommended, // Few recommended rules.
     // Generate a table of contents in `## Contents`
     // [remarkToc, { heading: "contents" }],
+    remarkLintFencedCodeFlag,
+    presetPrettier,
+    ["remark-lint-list-item-indent", "space"],
   ],
 };
 

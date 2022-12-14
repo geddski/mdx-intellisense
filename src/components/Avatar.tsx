@@ -2,12 +2,12 @@ export interface AvatarProps {
   /**
    * The avatar of the user to display.
    */
-  avatar: string
+  avatar: string;
 
   /**
    * The name of the user.
    */
-  name: string
+  name: string;
 }
 
 /**
