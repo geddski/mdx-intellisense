@@ -45,7 +45,8 @@
         "remark-lint-list-item-indent",
         "space"
       ],
-      "remark-lint-no-duplicate-headings"
+      "remark-lint-no-duplicate-headings",
+      "remark-lint-fenced-code-flag"
     ]
   }
 }

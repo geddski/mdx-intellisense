@@ -8,7 +8,7 @@ module.exports = {
       files: ["*.mdx"],
       extends: "plugin:mdx/recommended",
       settings: {
-        // "mdx/code-blocks": true,
+        "mdx/code-blocks": true,
         ignoreRemarkConfig: false,
       },
       rules: {
